@@ -2,7 +2,6 @@ from braintumorclassifier.config.configuration import ConfigurationManager
 from braintumorclassifier.components.data_ingestion import DataIngestion
 from braintumorclassifier import logger
 
-
 STAGE_NAME = "Data Ingestion stage"
 
 class DataIngestionTrainingPipeline:
